@@ -23,6 +23,9 @@
       <FileType>CCode</FileType>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Linux-Notepads.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{E67DF0DF-F01B-4E94-B5DD-D8D7E5FE624A}</ProjectGuid>
