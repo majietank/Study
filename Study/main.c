@@ -1,7 +1,10 @@
 #include<stdio.h>
 void sj()
 {
-	printf("***");
+	for(int a=0;a<=10;a++){
+		printf("***\n");
+	}
+	
 }
 int main()
 {
