@@ -1,4 +1,36 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+void ri()
+{
+	int qponly = 1;
+	int sz[10][10] = { 0 };
+	for (int a = 0; a < 10; a++)		
+	{
+		for (int b = 0; b < 10; b++)
+		{
+			if (a == 0 || a == 9|| b == 0 || b == 9) {
+				sz[a][b] = -1;
+				//printf("%d", sz[a][b]);
+				//printf("*\t
+				printf("(%d,%d)",a,b);
+			}
+			else
+			{				
+				sz[a][b] = qponly;
+				printf("%d\t", sz[a][b]);
+				//printf("0\t");
+				//printf("(%d,%d)",a,b);
+				qponly++;
+			}						
+		}
+		printf("\n");
+		printf("\n");
+		int c;
+		c = rand(time(0)) % 9;	
+	}
+
+}
 void sj()
 {
 	int high;
@@ -29,11 +61,11 @@ int main()
 	int a=11/2;
 	printf("Hello!\n");
 	printf("%d\n",a);
-	sj();
+	//sj();
 	/*printf("Hello!!\ttest\tdone\n");
 	printf("Github test,write!");
 	printf("Visual Studio 2017,yee");
 	printf("Visual Studio Code,yes");*/
-
+	ri();
 	return 0;
 }
