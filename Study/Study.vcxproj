@@ -25,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Linux-Notepads.txt" />
+    <Text Include="Text.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
