@@ -13,7 +13,7 @@ void ri()
 				sz[a][b] = -1;
 				//printf("%d", sz[a][b]);
 				//printf("*\t
-				printf("(%d,%d)",a,b);
+				printf("(%d,%d)\t",a,b);
 			}
 			else
 			{				
@@ -24,10 +24,8 @@ void ri()
 				qponly++;
 			}						
 		}
-		printf("\n");
-		printf("\n");
-		int c;
-		c = rand(time(0)) % 9;	
+		printf("\n\n\n");
+		//printf("\n");	
 	}
 
 }
